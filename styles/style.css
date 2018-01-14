@@ -11,7 +11,7 @@ html {
 }
 
 header {
-  height: 100vh; <!-- 100 percent height of the viewport -->
+  height: 100vh; /* 100 percent height of the viewport */
   background-image: url("../images/header.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -45,7 +45,7 @@ header {
 .topnav {
     overflow: hidden;
     padding: 8px 0px;
-    position: fixed; <!-- The navbar is always fixed to top -->
+    position: fixed; /* The navbar is always fixed to top */
     top: 0;
     left: 0;
     right: 0;
