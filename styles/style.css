@@ -6,17 +6,16 @@ body {
   margin: 0px 0px 0px 0px;
 }
 
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
 
 header {
-  height: 100vh;
+  height: 100vh; <!-- 100 percent height of the viewport -->
   background-image: url("../images/header.jpeg");
-  /* Background image is centered vertically and horizontally at all times */
-   background-position: center center;
-   background-repeat: no-repeat;
-
-   /* This is what makes the background image rescale based
-      on the container's size */
-   background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #content1,#content2,#content3,#content4,#content5,#content6 {
@@ -46,7 +45,7 @@ header {
 .topnav {
     overflow: hidden;
     padding: 8px 0px;
-    position: fixed;
+    position: fixed; <!-- The navbar is always fixed to top -->
     top: 0;
     left: 0;
     right: 0;
@@ -65,12 +64,6 @@ header {
     font-family: 'Playfair Display', serif;
 }
 
-/* Change the color of links on hover */
-
-
-
-
-/* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
     display: none;
 }
@@ -89,7 +82,6 @@ header {
 
 /*  END OF NAVBAR  */
 
-
 [class*="col-"] {
     float: left;
     padding: 15px;
@@ -106,9 +98,7 @@ header {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-html {
-    font-family: "Lucida Sans", sans-serif;
-}
+
 /* Grid View taken from W3Schools.com */
 
 h1 {
@@ -213,7 +203,7 @@ input[type=text], select {
   font-family: Arial;
   color: #ebebeb;
   font-size: 16px;
-  background: #000000;
+  background: #1b1b1b;
   padding: 5px 23px 5px 23px;
   border: solid #000000 0px;
   text-decoration: none;
@@ -286,8 +276,7 @@ input[type=text], select {
     border-left: 2px solid #146c47;
     padding-left: 1.1em;
   }
-
-
+}
 /* I used media queries to display the navbar items together (block) on small devices.
 
 /* END OF MEDIA QUERIES*/
